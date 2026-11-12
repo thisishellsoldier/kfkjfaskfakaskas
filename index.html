@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="LR12">
+        <meta name="author" content="Kotliarenko Bogdan">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LR12</title>
+        <link rel="icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="./CSSFiles/mystyle.css">
+    </head>
+    <body>
+<h1>Трансформація та анімація в CSS</h1>
+
+<div class="task task1">
+    <h2>transform</h2>
+    <p>scale</p>
+    <div class="row">
+        <button type="button" class="button1 sc1">Кнопка1</button>
+        <button type="button" class="button1 sc2">Кнопка2</button>
+        <button type="button" class="button1 sc3">Кнопка3</button>
+        <button type="button" class="button1 sc4">Кнопка4</button>
+    </div>
+    <p>translate</p>
+    <div class="row">
+        <button type="button" class="button1 tr1">Кнопка1</button>
+        <button type="button" class="button1 tr2">Кнопка2</button>
+        <button type="button" class="button1 tr3">Кнопка3</button>
+        <button type="button" class="button1 tr4">Кнопка4</button>
+    </div>
+    <p>rotata</p>
+    <div class="row">
+        <button type="button" class="button1 ro1">Кнопка1</button>
+        <button type="button" class="button1 ro2">Кнопка2</button>
+        <button type="button" class="button1 ro3">Кнопка3</button>
+        <button type="button" class="button1 ro4">Кнопка4</button>
+    </div>
+    <p>skew(ще наче shear називають)</p>
+    <div class="row">
+        <button type="button" class="button1 sk1">Кнопка1</button>
+        <button type="button" class="button1 sk2">Кнопка2</button>
+        <button type="button" class="button1 sk3">Кнопка3</button>
+        <button type="button" class="button1 sk4">Кнопка4</button>
+    </div>
+    <p>transform origin</p>
+    <div class="row">
+        <button type="button" class="button1 or1">Кнопка1</button>
+        <button type="button" class="button1 or2">Кнопка2</button>
+        <button type="button" class="button1 or3">Кнопка3</button>
+        <button type="button" class="button1 or4">Кнопка4</button>
+    </div>
+</div>
+
+<div class="task task2">
+    <h2>perehodi</h2>
+    <p>transition</p>
+    <div class="row">
+        <button type="button" class="button1">Test button</button>
+        <button type="button" class="button1 button2">transition: 2s</button>
+        <button type="button" class="button1 button2a">color: 1s</button>
+        <button type="button" class="button1 button2b">scale + shadow</button>
+    </div>
+</div>
+
+<div class="task task3">
+    <h2>animation</h2>
+    <p></p>
+    <div class="row row3">
+        <button type="button" class="button3">Bouncing</button>
+        <button type="button" class="button3 button3b">Pulsing</button>
+        <button type="button" class="button3 button3c">Swinging</button>
+    </div>
+</div>
+
+<div class="task task4">
+    <h2>Hell (3d)</h2>
+    <div id="stage4" style="background: rgba(0,0,0,0.5);">
+	<p style="color:white;">не знаю як через хештег прозорість встановити</p>
+        <p id="spinner4" style="background: rgba(0,0,0,0.5); text-align: center; color: #fff;">turn</p>
+    </div>
+</div>
+
+<div class="task task5">
+    <h2>Завдання №5 3D-анімація</h2>
+    <div id="stage5" style="padding-left: 180px; height: 160px;">
+        <div id="spinner5" style="transform-origin: 180px 0 0;">
+            <img style="transform: rotateY(0deg) translateX(180px); padding: 0 0 0 160px;" src="./images/beach1.jpg" width="200" height="160" alt="">
+            <img style="transform: rotateY(-72deg) translateX(180px); padding: 0 0 0 147px;" src="./images/beach2.jpg" width="213" height="160" alt="">
+            <img style="transform: rotateY(-144deg) translateX(180px); padding: 0 0 0 120px;" src="./images/beach3.jpg" width="240" height="160" alt="">
+            <img style="transform: rotateY(-216deg) translateX(180px); padding: 0 0 0 147px;" src="./images/beach4.jpg" width="213" height="160" alt="">
+            <img style="transform: rotateY(-288deg) translateX(180px); padding: 0 0 0 122px;" src="./images/beach5.jpg" width="238" height="160" alt="">
+        </div>
+    </div>
+</div>
+
+<footer>
+<p style="text-align:center; font-size: 1em; color:#000000;"> Kotliarenko Bogdan | 11.12.2026</p>
+</footer>
+</body>
